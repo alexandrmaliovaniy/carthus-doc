@@ -193,7 +193,7 @@ cts cm-view NewPage ./src/components/ComponentName/View
 Optional flags:
 
 - -scss -- additionally creates .scss file
-- scss-module -- additionally creates .module.scss file
+- -scss-module -- additionally creates .module.scss file
 
 
 ## <a name="react_elements-service"></a> Service (srv, service)
