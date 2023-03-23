@@ -85,9 +85,9 @@ Basically, if we configure alias:
 
 ```json
 {
-	"alias": {
-		"forms": "./src/features/forms"
-	}
+  "alias": {
+    "forms": "./src/features/forms"
+  }
 }
 ```
 
