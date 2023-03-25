@@ -261,7 +261,7 @@ It creates extra route by itself, there you can set **Component** as a link to [
 Also, you can provide **Guard** as link to [Guard](#react_elements-guard) component.
 If [Guard](#react_elements-guard) is provided, **Layout** property required.
 
-**Layout** is function that has **<Outlet />** **from react-router-dom** in it's JSX
+**Layout** is function that has **Outlet** component **from react-router-dom** in it's JSX
 
 And finally, you can insert in routes array links to other [Routers](#react_elements-router) or [Routes](#react_elements-route).
 
