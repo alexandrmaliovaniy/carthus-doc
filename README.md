@@ -259,6 +259,9 @@ Router component used to handle all you application routes in one gateway.
 It creates extra route by itself, there you can set **Component** as a link to [Component](#react_elements-component) element or any other react component
 
 Also, you can provide **Guard** as link to [Guard](#react_elements-guard) component.
+If [Guard](#react_elements-guard) is provided, **Layout** property required.
+
+**Layout** is function that has **<Outlet />** **from react-router-dom** in it's JSX
 
 And finally, you can insert in routes array links to other [Routers](#react_elements-router) or [Routes](#react_elements-route).
 
@@ -270,6 +273,7 @@ Router component created by function **CreateRouter** from **@carthus/core**
 const MainRouter = CreateRouter({
     path: "/",
     Guard: null,
+    Layout: null,
     Component: null,
     routes: []
 })
