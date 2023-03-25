@@ -308,9 +308,9 @@ Guard allows you to control user's flow through route.
 
 Example:
 ```typescript jsx
-const Guard: FC<IMainGuardProps> = ({...props}) => {
+const Guard: FC<IMainGuardProps> = ({children, ...props}) => {
     // any logic here...
-    return <Outlet />
+    return children;
 };
 ```
 
