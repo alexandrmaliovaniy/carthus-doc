@@ -221,7 +221,7 @@ cts provider Name ./src/components/ComponentName/Service -f
 
 ## <a name="react_elements-data"></a> Data (data)
 
-**Note:** to use this element you have to install [zod](https://www.npmjs.com/package/zod).
+**Note:** to use this element you have to install [zod@3.20.6](https://www.npmjs.com/package/zod).
 
 Data component is used to manipulate any plain data in your application: http requests to server, read/write localStorage, write raw data etc.
 
